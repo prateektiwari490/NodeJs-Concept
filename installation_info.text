@@ -1,0 +1,11 @@
+npm init
+npm install slugify // "slugify": "^1.4.0" but using "slugify": "~1.4.0" for bug fixes
+npm install slugify@1.0.0 // this will install the specific versionn of slugify
+npm install nodemon --save-dev // for local nodemon type --> npm run start or npm start
+npm i nodemon --global
+npm outdated // this will give the table of outdated versions of any npm packages
+npm i express // this will install the packages
+npm uninstall express // this will uninstall the packages
+npm install // if node module is deleted then this command will read the dependencies and get back the node module... so don't post this in github
+npm i morgan
+npm i mongoose@5

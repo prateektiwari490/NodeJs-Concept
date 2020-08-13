@@ -1,0 +1,22 @@
+www.getpostman.com to download the tool
+npm init
+npm i express@4
+npm i morgan
+
+in package.json there is 2 start in the script tag
+1) start:dev -->> development to run this >> npm run start:dev
+2) start:prod -->> production to run this >> npm run start:prod
+
+configuring esLint with prettier >> they have to installed locally for every project
+
+npm i eslint prettier eslint-config-prettier eslint-plugin-prettier eslint-config-airbnb eslint-plugin-node eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react --save-dev
+
+
+to load the data tours-simple.json we wrote a js file import-dev-data.js
+and run this file separately from the vsCode terminal by running 
+node .\dev-data\data\import-dev-data.js and then quit the process and then
+again run node .\dev-data\data\import-dev-data.js --import 
+this will create the third argument --import 
+and now run 'node .\dev-data\data\import-dev-data.js --delete' 
+to delete the existing data from the database and then run 
+'node .\dev-data\data\import-dev-data.js --import' to import the entire json file..
